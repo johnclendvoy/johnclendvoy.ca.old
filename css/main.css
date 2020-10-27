@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.border-sketchy {
+    /* border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; */
+    border-radius: 50px 15px 30px 15px/15px 20px 15px 30px;
+}
+
+.border-sketchy-2 {
+    border-radius: 17px 50px 30px 20px/15px 10px 40px 35px;
+}
+
+.bg-lines {
+    background-image: url('/images/svg/line.svg') !important;
+}
+
+a.link:hover {
+    @apply text-blue-600;
+    @apply border-blue-600;
+}
