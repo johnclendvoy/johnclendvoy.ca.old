@@ -1,5 +1,11 @@
 module.exports = {
-  purge: [],
+  purge: {
+      enabled: true,
+      content:[
+          './*.html',
+        //   './public/**/*.html'
+        ]
+  },
   theme: {
     fontFamily: {
       'scratch-1': ['Caveat', 'sans-serif'],
