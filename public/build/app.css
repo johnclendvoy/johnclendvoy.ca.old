@@ -744,12 +744,12 @@ video {
   font-size: 1.125rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
 }
 
 .text-4xl {
@@ -782,6 +782,10 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .ml-2 {
@@ -822,6 +826,10 @@ video {
 
 .mr-10 {
   margin-right: 2.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .mb-16 {
@@ -904,10 +912,6 @@ video {
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
 }
 
 .absolute {
