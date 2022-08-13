@@ -672,10 +672,6 @@ video {
   display: table;
 }
 
-.hidden {
-  display: none;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1172,10 +1168,6 @@ a.link:hover {
 
   .sm\:text-right {
     text-align: right;
-  }
-
-  .sm\:visible {
-    visibility: visible;
   }
 
   .sm\:w-1\/2 {
